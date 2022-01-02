@@ -1,0 +1,294 @@
+/* style-all.css */
+/*--class.php + class-work.php + homework.php + index.php + people.php--*/
+.btn-user{
+    background-image: url(
+    './images/person.png');
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+}
+
+.btn-user:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#manager-account{
+    width: 300px;
+    margin-left: 70%;
+}
+
+#header-account{
+    margin-left: 32%;
+}
+
+#name-account{
+    width: 100%;
+    text-align: center;
+}
+
+#img-account{
+    border: 1px solid;
+    margin-left: 30%;
+    width: 100px;
+    height: 100px;
+}
+
+#change{
+    margin-left: 26%;
+}
+
+.btn{
+    margin: auto;
+}
+
+a{
+    font-size: 20px;
+}
+
+li{
+    margin: auto;
+    padding-left: 80px;
+}
+
+/* style-class.css -----------------------------------------------------------------------------------------------*/
+/*--class.php + class-work.php + homework.php--*/
+.subject{
+    font-size: 25px;
+    color: aliceblue;
+}
+.subject:hover{
+    color: darkcyan;
+}
+
+/* style-manager.css ----------------------------------------------------------------------------------------------*/
+/*-- class-work.php + people.php--*/
+h3{
+    color: blue;
+}
+
+.img-people{
+    width: 30px;
+    height: 30px;
+}
+/* style-subject.css ---------------------------------------------------------------------------------------------*/
+/*--class.php--*/
+.bg-title{
+    background-image: url("./images/bg-subject.png");
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.sb-title{
+    margin-left: 50px;
+    margin-top: 20px;
+    color: black;
+}
+
+#sub-name{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#sub-teacher{
+    font-size: 30px;
+}
+
+.row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.row-discuss{
+    display: flex;
+}
+
+img{
+    width: 45px;
+    height: 45px;
+}
+
+.name-teacher-status{
+    margin-left: 10px;
+}
+
+.dropdown-item:hover{
+    background-color: #FF7600;
+}
+
+/*form{
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+}*/
+
+.form-group{
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#submit{
+    margin-left: 50%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.row-notification{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.row-info{
+    margin-left: 5px;
+    display: flex;
+    margin-top: 10px;
+}
+
+#main-notification{
+    margin-left: 5px;
+}
+
+/*Sửa btn-edit thành btn-edit-notification*/
+#btn-edit-notification{
+    margin-left: 45%;
+}
+
+#send{
+    margin-bottom: 5px;
+    margin-left: 50%;
+}
+
+.homework{
+    width: 100%;
+    border: 1px solid cadetblue;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.homework:hover{
+    background-color: aquamarine;
+}
+
+#img-work{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.title-homework{
+    margin-left: 10px;
+}
+
+h4{
+    margin-top: 15px;
+}
+
+/* style-work.php -------------------------------------------------------------------------------------*/
+/*--homwork.php--*/
+.row{
+    width: 100%;
+}
+
+.work-title{
+    display: flex;
+}
+
+img{
+    width: 45px;
+    height: 45px;
+}
+
+.name-work{
+    width: 100%;
+    margin-left: 10px;
+}
+
+.time-teacher{
+    display: flex;
+}
+
+#deadline{
+    margin-left: 70%;
+}
+
+/* sửa send thành send-homework*/
+#send-homework{
+    margin-left: 50%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.desc{
+    border-top: 1px solid;
+    margin-bottom: 10px;
+    border-bottom: 1px solid;
+}
+
+.row-discuss{
+    display: flex;
+}
+
+.comment{
+    margin-left: 10px;
+}
+
+/* them class = "row-comment" vào td search = comment*/
+.row-comment{
+    display: flex;
+}
+
+/* style-index -------------------------------------------------------------------------------*/
+/*--index.php--*/
+.name-title{
+    font-size: 40px;
+}
+
+#t{
+    color: blue;
+}
+#d {
+    color: red;
+}
+
+.card{
+    height: 365px;
+    margin-bottom: 30px;
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card-img-top{
+    height: 150px;
+}
+
+.card-title{
+    font-size: 24px;
+    color: red;
+}
+.card-title:hover{
+    color: red;
+}
+
+.card-footer{
+    width: 100%;
+    display: flex;
+}
+
+/*------ Sửa 3 btn trên card ----*/
+#btn-view{
+    margin-left: 30%;
+}
+#btn-edit{
+    margin-left: 1%;
+}
+#btn-delete{
+    margin-left: 1%;
+}
+
